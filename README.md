@@ -34,3 +34,10 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+# HealthCare-App-Website
+
+- User research: https://forms.gle/9py4WSzJdPCcneap9
+- Personas: https://hudson.xtensio.com/folder/1z3ybt82
+- Wireframes: https://www.figma.com/design/QAfOQg9TZJa265uzdFtf0i/HealthCare-App?node-id=3-22&t=PC2kGKJGPQS7fROG-1
+- Prototype: https://www.figma.com/proto/QAfOQg9TZJa265uzdFtf0i/HealthCare-App?node-id=3-22&t=PC2kGKJGPQS7fROG-1
