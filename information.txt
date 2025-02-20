@@ -1,0 +1,7 @@
+npm run dev     // Run the project in the Local Server
+npm run build   // Build the project 
+npm start       // Run the project based on build
+npm install     // Install Dependencies
+
+git log
+git status
