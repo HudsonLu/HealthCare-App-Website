@@ -1,12 +1,9 @@
-import Link from "next/link";
-import ProductCard from "./components/ProductCard";
+import Hero from "./components/Hero";
 
 export default function Home() {
   return (
-    <main>
-      <h1>Hello World</h1>
-      <Link href="/users">Users</Link>
-      <ProductCard />
-    </main>
+    <div>
+      <Hero />
+    </div>
   );
 }
