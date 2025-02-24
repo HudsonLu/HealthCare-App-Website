@@ -1,3 +1,5 @@
+"use client";
+
 export default function UsabilityTestingPage() {
   return (
     <div className="p-6 text-white text-left max-w-4xl mx-auto">

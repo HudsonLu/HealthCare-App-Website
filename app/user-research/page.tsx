@@ -1,8 +1,12 @@
+"use client";
+
+import Image from "next/image";
+
 export default function UserResearchPage() {
   return (
     <div className="p-6 text-white text-center max-w-4xl mx-auto">
       <h1 className="text-5xl font-bold text-teal-500">
-        User Research & Persona Creation
+        User Research &amp; Persona Creation
       </h1>
       <p className="text-lg mt-4 text-blue-300">
         Understanding user needs through surveys, interviews, and research. This
@@ -75,7 +79,7 @@ export default function UserResearchPage() {
       {/* Survey Results */}
       <div className="mt-6 bg-gray-800 p-6 rounded-lg shadow-lg">
         <h2 className="text-2xl font-semibold text-teal-400">Survey Results</h2>
-        <p className="mt-4 text-gray-300">
+        <p className="mt-4 text-gray-300 text-justify">
           The survey included 21 participants, mostly aged 18-29 and 65+.
           Two-thirds have chronic conditions requiring regular medication.
           Memory and notes are the primary reminder methods, but all
@@ -83,10 +87,12 @@ export default function UserResearchPage() {
         </p>
         <div className="grid grid-cols-2 gap-4 mt-4">
           {[...Array(15).keys()].map((i) => (
-            <img
+            <Image
               key={i}
               src={`/survey/${i + 1}.png`}
               alt={`Survey result ${i + 1}`}
+              width={400}
+              height={300}
               className="w-full h-auto rounded-lg shadow-md"
             />
           ))}
@@ -165,9 +171,11 @@ export default function UserResearchPage() {
         <h2 className="text-2xl font-semibold text-teal-400">User Personas</h2>
 
         <div className="mt-4 p-4 bg-gray-900 rounded-lg flex flex-col items-center">
-          <img
+          <Image
             src="/Personas/Persona1.png"
             alt="David Nguyen Persona"
+            width={1000}
+            height={500}
             className="w-70 h-auto rounded-lg shadow-md mb-4"
           />
           <h3 className="text-xl font-bold text-teal-300">David Nguyen</h3>
@@ -187,9 +195,11 @@ export default function UserResearchPage() {
         </div>
 
         <div className="mt-4 p-4 bg-gray-900 rounded-lg flex flex-col items-center">
-          <img
+          <Image
             src="/Personas/Persona2.png"
             alt="Margaret Smith Persona"
+            width={1000}
+            height={500}
             className="w-70 h-auto rounded-lg shadow-md mb-4"
           />
           <h3 className="text-xl font-bold text-teal-300">Margaret Smith</h3>

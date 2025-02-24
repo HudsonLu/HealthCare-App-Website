@@ -1,8 +1,10 @@
 "use client";
 
+import Image from "next/image";
+
 export default function UserJourneyPage() {
-  const handleFullscreen = (e: { target: any }) => {
-    const img = e.target;
+  const handleFullscreen = (e: React.MouseEvent<HTMLImageElement>) => {
+    const img = e.currentTarget;
     if (document.fullscreenElement) {
       document.exitFullscreen();
     } else {
@@ -35,17 +37,19 @@ export default function UserJourneyPage() {
         <p className="text-sm text-blue-400 mb-2">
           Click on the image to view in fullscreen.
         </p>
-        <img
+        <Image
           src="/Personas/UserJourney.png"
           alt="User Journey"
-          className="mx-auto w-full max-w-4xl h-auto rounded-lg shadow-md cursor-pointer"
+          width={800}
+          height={600}
+          className="mx-auto rounded-lg shadow-md cursor-pointer"
           onClick={handleFullscreen}
         />
       </div>
 
       <div className="mt-6 bg-gray-800 p-6 rounded-lg shadow-lg text-left">
         <h2 className="text-2xl font-semibold text-teal-400">
-          David's Journey
+          David&apos;s Journey
         </h2>
         <p className="mt-4 text-gray-300 text-justify">
           In the user journey map, David is going through the entire process of

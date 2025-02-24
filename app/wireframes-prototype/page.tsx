@@ -1,8 +1,12 @@
+"use client";
+
+import Image from "next/image";
+
 export default function WireframesPage() {
   return (
     <div className="p-6 text-white text-left max-w-4xl mx-auto">
       <h1 className="text-4xl font-bold text-teal-300 text-center">
-        Wireframes & Prototype
+        Wireframes &amp; Prototype
       </h1>
       <p className="text-lg mt-4 text-blue-300 text-center">
         Wireframes help visualize the structure of the application before
@@ -20,10 +24,12 @@ export default function WireframesPage() {
           moving into the final design phase.
         </p>
         <div className="mt-4">
-          <img
+          <Image
             src="/Wireframes/sketches.png"
             alt="Sketches"
-            className="mx-auto w-full max-w-3xl h-auto rounded-lg shadow-md"
+            width={800}
+            height={600}
+            className="mx-auto rounded-lg shadow-md"
           />
         </div>
       </div>
