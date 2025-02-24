@@ -66,16 +66,16 @@ export default function UsabilityTestingPage() {
           application, such as the ease of setting up medication reminders and
           scheduling doctor appointments. It will also assess the navigation and
           the findability of essential features needed by users. Another goal is
-          to understand users' emotional responses to the app and identify pain
-          points.
+          to understand users&apos; emotional responses to the app and identify
+          pain points.
         </p>
         <p className="mt-4 text-gray-300 text-justify">
           Additionally, the testing aims to prevent future design mistakes,
           detect potential usability issues early, and validate the design with
           real user data. It also ensures that the product is intuitive and
           user-centered. Developers often fall into the false-consensus bias,
-          and usability testing helps provide insights from the actual user's
-          perspective.
+          and usability testing helps provide insights from the actual
+          user&apos;s perspective.
         </p>
       </div>
 
@@ -88,7 +88,7 @@ export default function UsabilityTestingPage() {
             Add a new medication, set a reminder schedule, and confirm the
             notification.
           </li>
-          <li>Book a doctor’s appointment and receive confirmation.</li>
+          <li>Book a doctor&apos;s appointment and receive confirmation.</li>
           <li>Log medication intake and review past logs.</li>
           <li>Send a message to a healthcare professional.</li>
         </ul>
@@ -125,7 +125,8 @@ export default function UsabilityTestingPage() {
           usability issues will be prioritized by severity, and design updates
           will be implemented accordingly. Finally, A/B testing will be
           conducted to measure the effectiveness of refinements, such as shapes
-          and colors, ensuring continuous enhancement of the app’s usability.
+          and colors, ensuring continuous enhancement of the app&apos;s
+          usability.
         </p>
       </div>
     </div>

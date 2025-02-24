@@ -4,7 +4,7 @@ export default function ReflectionPage() {
   return (
     <div className="p-6 text-white text-left max-w-4xl mx-auto">
       <h1 className="text-4xl font-bold text-teal-300 text-center">
-        Reflection & Learnings
+        Reflection &amp; Learnings
       </h1>
       <p className="text-lg mt-4 text-blue-300 text-center">
         The UX design process taught us how to refine features based on user
@@ -40,7 +40,7 @@ export default function ReflectionPage() {
           gained insights into how individuals with chronic conditions manage
           their medications and appointments. I learned the importance of
           accessibility, simplicity, and emotional considerations. Managing
-          chronic conditions is stressful, and the app's goal is to support
+          chronic conditions is stressful, and the app&apos;s goal is to support
           users by making their healthcare management easier and more intuitive.
         </p>
       </div>
