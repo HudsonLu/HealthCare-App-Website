@@ -41,11 +41,12 @@ export default function UserResearchPage() {
           For my health management app, the main target audience consists of
           people with chronic medical conditions or those who take medication
           daily for any purpose. The goal of the survey is to gather initial
-          user feedback on HealthCare’s concept and refine the design during
-          development. The survey is structured according to best practices,
-          starting with demographic questions, followed by light questions, then
-          the important questions, and concluding with additional light
-          questions. The survey takes approximately five minutes to complete.
+          user feedback on HealthCare&apos;s concept and refine the design
+          during development. The survey is structured according to best
+          practices, starting with demographic questions, followed by light
+          questions, then the important questions, and concluding with
+          additional light questions. The survey takes approximately five
+          minutes to complete.
         </p>
         <p className="mt-4 text-gray-300">
           The survey contains 4 types of questions:
@@ -71,8 +72,8 @@ export default function UserResearchPage() {
           A pilot test was conducted to ensure clarity and comprehension before
           the survey was distributed. The survey was shared through personal
           connections and messaging platforms to reach a diverse audience.
-          Confidentiality was assured, as all participants' responses remained
-          anonymous.
+          Confidentiality was assured, as all participants&apos; responses
+          remained anonymous.
         </p>
       </div>
 
@@ -109,19 +110,19 @@ export default function UserResearchPage() {
           students and retired individuals.
         </p>
         <p className="mt-4 text-gray-300 text-justify">
-          <strong>Medication & Reminders: </strong>
+          <strong>Medication &amp; Reminders: </strong>
           Two-thirds of the participants have medical conditions that require
           regular appointments or medication. Most rely on notes and memory as
           their primary method for reminders, which aligns with the target
           audience of the app. Every participant admitted to forgetting to take
-          their medication at least once, with "sometimes" and "rarely" being
-          the most common responses. The primary reasons for this include
-          difficulty understanding medication instructions, lack of discipline
-          in maintaining a consistent health routine, and simply forgetting to
-          take medication on time.
+          their medication at least once, with &quot;sometimes&quot; and
+          &quot;rarely&quot; being the most common responses. The primary
+          reasons for this include difficulty understanding medication
+          instructions, lack of discipline in maintaining a consistent health
+          routine, and simply forgetting to take medication on time.
         </p>
         <p className="mt-4 text-gray-300 text-justify">
-          <strong>Appointment Scheduling & Feature Preferences: </strong>
+          <strong>Appointment Scheduling &amp; Feature Preferences: </strong>
           The overwhelming majority schedule doctor appointments via phone
           calls. Apart from the core features of the app, the most desired
           additional feature is tracking health metrics. In terms of reminder
@@ -131,7 +132,7 @@ export default function UserResearchPage() {
           consideration is needed for implementation.
         </p>
         <p className="mt-4 text-gray-300 text-justify">
-          <strong>Accessibility & Usability: </strong>
+          <strong>Accessibility &amp; Usability: </strong>
           Most participants are comfortable with mobile apps, meaning the goal
           is to design the app in a way that is both familiar yet unique,
           incorporating best practices from well-designed mobile applications.
@@ -142,10 +143,10 @@ export default function UserResearchPage() {
           instructions.
         </p>
         <p className="mt-4 text-gray-300 text-justify">
-          <strong>Security & Privacy:</strong>
+          <strong>Security &amp; Privacy:</strong>
           Security and ease of use are high priorities. This means the app
           should have a minimalistic and intuitive design. To ensure privacy and
-          security for users’ sensitive health information, a robust login
+          security for users&apos; sensitive health information, a robust login
           system is required, with the potential integration of biometric
           authentication or two-factor authentication (2FA) for added
           protection.
