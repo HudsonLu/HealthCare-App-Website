@@ -85,6 +85,14 @@ export default function WireframesPage() {
           >
             Figma Prototype
           </a>
+          <a
+            href="https://www.figma.com/design/QAfOQg9TZJa265uzdFtf0i/HealthCare-App?node-id=65-94&t=c8PaAo8renaOiqoU-1"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-teal-300 underline ml-1"
+          >
+            Figma Prototype Wireframes
+          </a>
         </p>
       </div>
 
