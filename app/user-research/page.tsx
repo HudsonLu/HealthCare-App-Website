@@ -90,7 +90,7 @@ export default function UserResearchPage() {
           {[...Array(15).keys()].map((i) => (
             <Image
               key={i}
-              src={`/survey/${i + 1}.png`}
+              src={`/Survey/${i + 1}.png`}
               alt={`Survey result ${i + 1}`}
               width={400}
               height={300}
