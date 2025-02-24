@@ -91,7 +91,7 @@ export default function WireframesPage() {
             rel="noopener noreferrer"
             className="text-teal-300 underline ml-1"
           >
-            Figma Prototype Wireframes
+            | Figma Prototype Wireframes
           </a>
         </p>
       </div>
