@@ -45,7 +45,7 @@ export default function WireframesPage() {
         <p className="mt-4 text-lg text-gray-300">
           Please consult:
           <a
-            href="https://www.figma.com/proto/QAfOQg9TZJa265uzdFtf0i/HealthCare-App?node-id=3-22&t=PC2kGKJGPQS7fROG-1"
+            href="https://www.figma.com/design/QAfOQg9TZJa265uzdFtf0i/HealthCare-App?node-id=19-2&t=MM2NJH5i1JsqFGCN-1"
             target="_blank"
             rel="noopener noreferrer"
             className="text-teal-300 underline ml-1"
@@ -53,10 +53,17 @@ export default function WireframesPage() {
             Figma Wireframes
           </a>
         </p>
-        <div className="mt-4 h-64 flex justify-center items-center border border-dashed border-gray-500 rounded-lg">
-          <span className="text-gray-400">
-            (Wireframe images will be placed here)
-          </span>
+        <div className="grid grid-cols-1 gap-4 mt-4">
+          {[1, 2].map((i) => (
+            <Image
+              key={i}
+              src={`/Wireframes/${i}.png`}
+              alt={`Wireframe ${i}`}
+              width={800}
+              height={600}
+              className="w-full h-auto rounded-lg shadow-md"
+            />
+          ))}
         </div>
       </div>
 
@@ -71,7 +78,7 @@ export default function WireframesPage() {
         <p className="mt-4 text-lg text-gray-300">
           Please consult:
           <a
-            href="https://www.figma.com/proto/QAfOQg9TZJa265uzdFtf0i/HealthCare-App?node-id=3-22&t=PC2kGKJGPQS7fROG-1"
+            href="https://www.figma.com/proto/QAfOQg9TZJa265uzdFtf0i/HealthCare-App?node-id=65-94&t=MM2NJH5i1JsqFGCN-1"
             target="_blank"
             rel="noopener noreferrer"
             className="text-teal-300 underline ml-1"

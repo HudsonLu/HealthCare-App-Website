@@ -40,7 +40,7 @@ export default function UserJourneyPage() {
         <Image
           src="/Personas/UserJourney.png"
           alt="User Journey"
-          width={800}
+          width={2000}
           height={600}
           className="mx-auto rounded-lg shadow-md cursor-pointer"
           onClick={handleFullscreen}
